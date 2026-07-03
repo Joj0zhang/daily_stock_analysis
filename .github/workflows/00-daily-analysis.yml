@@ -15,7 +15,7 @@ on:
       force_run:
         description: '强制运行（跳过交易日检查）'
         required: false
-        default: false
+        default: true
         type: boolean
       stock_list:
         description: '覆盖运行时的自选股列表（逗号分隔），优先级最高'
